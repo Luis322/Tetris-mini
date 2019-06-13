@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1320942340 source:f:\univ\programacion\final ccomp\tetris miniwin\miniwin.cpp
+	<fstream>
+	<sstream>
+	<queue>
+	<math.h>
+	<process.h>
+	<windows.h>
+	<windowsx.h>
+	"miniwin.h"
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<string>
+	<queue>
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xos.h>
+	<X11/Xatom.h>
+	<X11/keysym.h>
+	"miniwin.h"
+
+1320942340 f:\univ\programacion\final ccomp\tetris miniwin\miniwin.h
+	<iostream>
+
+1560434026 source:f:\univ\programacion\final ccomp\tetris miniwin\tetris.cpp
+	"miniwin.h"
+	"Tetromino.h"
+	"Pieza_I.h"
+	"Pieza_J.h"
+	"Pieza_L.h"
+	"Pieza_O.h"
+	"Pieza_S.h"
+	"Pieza_T.h"
+	"Pieza_Z.h"
+
+1560392128 source:f:\univ\programacion\final ccomp\tetris miniwin\src\tetromino.cpp
+	"Tetromino.h"
+
+1560434235 f:\univ\programacion\final ccomp\tetris miniwin\include\tetromino.h
+	"../miniwin.h"
+
+1560432488 f:\univ\programacion\final ccomp\tetris miniwin\include\pieza_i.h
+	"../miniwin.h"
+
+1560431627 f:\univ\programacion\final ccomp\tetris miniwin\include\pieza_j.h
+	"../miniwin.h"
+
+1560431245 f:\univ\programacion\final ccomp\tetris miniwin\include\pieza_l.h
+	"../miniwin.h"
+
+1560432301 f:\univ\programacion\final ccomp\tetris miniwin\include\pieza_o.h
+	"../miniwin.h"
+
+1560431841 f:\univ\programacion\final ccomp\tetris miniwin\include\pieza_s.h
+	"../miniwin.h"
+
+1560432141 f:\univ\programacion\final ccomp\tetris miniwin\include\pieza_t.h
+	"../miniwin.h"
+
+1560434235 f:\univ\programacion\final ccomp\tetris miniwin\include\pieza_z.h
+	"../miniwin.h"
+
