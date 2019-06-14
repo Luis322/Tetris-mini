@@ -17,14 +17,19 @@ class Pieza_Z:public Tetromino
         }
         void rotar_derecha(){
             color(VERDE);
+            color(VERDE);
             cuadrado(x,y);
+            cuadrado(x+1,y);
+            cuadrado(x+1,y-1);
+            cuadrado(x,y+1  );
+            /*cuadrado(x,y);
             swap_der(x,y);
             x--;y--;
             cuadrado(x,y);
             x++;
             cuadrado(x,y);
             x++;y++;
-            cuadrado(x,y);
+            cuadrado(x,y);*/
         }
     protected:
 
