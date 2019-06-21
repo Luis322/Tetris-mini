@@ -8,9 +8,6 @@ class Tetromino
     int TAM = 25;
 
     public:
-        Tetromino(){
-
-        }
         Tetromino(int _x, int _y){
             x=_x;
             y=_y;
@@ -21,13 +18,20 @@ class Tetromino
                              x * TAM + TAM,
                              y * TAM + TAM);
         }
-        virtual void pintar()=0;
-        virtual void rotar_derecha()=0;
-        void swap_der(int &x, int &y){
+        int getX(){return x;}
+        int getY(){return y;}
+        void pintar();
+        /*virtual void pintar(Tetromino *perif){
+            cuadrado(x,y);
+            for(int i=0;i<3;i++)
+                cuadrado(perif[i])
+        }*/
+        void rotar_derecha();
+        /*void swap_der(int &x, int &y){
             int m=x;
             x=y;
             y=m*-1;
-        }
+        }*/
 
 
     protected:

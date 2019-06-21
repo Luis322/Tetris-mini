@@ -13,10 +13,12 @@ const int TAM = 25;
 
 int main(){
     vredimensiona(TAM*10,TAM*20);
-    int x=3;
+    int x=6;
     int y=1;
-    //x=x*-1;
     int t=tecla();
+    Pieza_Z Z(x,y);
+    Z.pintar();
+    refresca();
     while (t!=ESCAPE){
         if(t==ABAJO)           {y++;}
         else if(t==DERECHA)    {x++;}
@@ -25,7 +27,7 @@ int main(){
         if(t!=NINGUNA){
             borra();
             Pieza_Z Z(x,y);
-            Z.rotar_derecha();
+            Z.pintar();
             refresca();
         }
         t=tecla();

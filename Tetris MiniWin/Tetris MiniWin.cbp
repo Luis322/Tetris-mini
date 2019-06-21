@@ -11,8 +11,10 @@
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 		</Build>
@@ -26,8 +28,17 @@
 			<Add library="comctl32" />
 		</Linker>
 		<Unit filename="Tetris.cpp" />
+		<Unit filename="include/Pieza_I.h" />
+		<Unit filename="include/Pieza_J.h" />
+		<Unit filename="include/Pieza_L.h" />
+		<Unit filename="include/Pieza_O.h" />
+		<Unit filename="include/Pieza_S.h" />
+		<Unit filename="include/Pieza_T.h" />
+		<Unit filename="include/Pieza_Z.h" />
+		<Unit filename="include/Tetromino.h" />
 		<Unit filename="miniwin.cpp" />
 		<Unit filename="miniwin.h" />
+		<Unit filename="src/Tetromino.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
