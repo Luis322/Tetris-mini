@@ -30,7 +30,7 @@ class Tetromino
         int getColor(){return _color;}
         void setX(int s){x=s;}
         void setY(int s){y=s;}
-        void pintar();
+        virtual void pintar(void);
 
 
         Tetromino rotar_tetro(Tetromino m){
