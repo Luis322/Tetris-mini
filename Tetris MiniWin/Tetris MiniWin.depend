@@ -23,8 +23,9 @@
 1320942340 f:\univ\programacion\final ccomp\tetris miniwin\miniwin.h
 	<iostream>
 
-1560715823 source:f:\univ\programacion\final ccomp\tetris miniwin\tetris.cpp
+1561728620 source:f:\univ\programacion\final ccomp\tetris miniwin\tetris.cpp
 	"miniwin.h"
+	<cstdlib>
 	"Tetromino.h"
 	"Pieza_I.h"
 	"Pieza_J.h"
@@ -37,28 +38,28 @@
 1560392128 source:f:\univ\programacion\final ccomp\tetris miniwin\src\tetromino.cpp
 	"Tetromino.h"
 
-1561116027 f:\univ\programacion\final ccomp\tetris miniwin\include\tetromino.h
+1561728628 f:\univ\programacion\final ccomp\tetris miniwin\include\tetromino.h
 	"../miniwin.h"
 
-1560432488 f:\univ\programacion\final ccomp\tetris miniwin\include\pieza_i.h
+1561716588 f:\univ\programacion\final ccomp\tetris miniwin\include\pieza_i.h
 	"../miniwin.h"
 
-1560431627 f:\univ\programacion\final ccomp\tetris miniwin\include\pieza_j.h
+1561716760 f:\univ\programacion\final ccomp\tetris miniwin\include\pieza_j.h
 	"../miniwin.h"
 
-1560431245 f:\univ\programacion\final ccomp\tetris miniwin\include\pieza_l.h
+1561716760 f:\univ\programacion\final ccomp\tetris miniwin\include\pieza_l.h
 	"../miniwin.h"
 
-1560432301 f:\univ\programacion\final ccomp\tetris miniwin\include\pieza_o.h
+1561716760 f:\univ\programacion\final ccomp\tetris miniwin\include\pieza_o.h
 	"../miniwin.h"
 
-1560431841 f:\univ\programacion\final ccomp\tetris miniwin\include\pieza_s.h
+1561716760 f:\univ\programacion\final ccomp\tetris miniwin\include\pieza_s.h
 	"../miniwin.h"
 
-1560432141 f:\univ\programacion\final ccomp\tetris miniwin\include\pieza_t.h
+1561716760 f:\univ\programacion\final ccomp\tetris miniwin\include\pieza_t.h
 	"../miniwin.h"
 
-1561116511 f:\univ\programacion\final ccomp\tetris miniwin\include\pieza_z.h
+1561728620 f:\univ\programacion\final ccomp\tetris miniwin\include\pieza_z.h
 	"../miniwin.h"
 	<iostream>
 

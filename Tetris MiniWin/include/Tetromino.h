@@ -7,7 +7,14 @@ class Tetromino
 {
     int TAM = 25;
 
+    protected:
+        int x;
+        int y;
+        int _color;
     public:
+        Tetromino *perif;
+
+        Tetromino(){x=0;y=0;}
         Tetromino(int _x, int _y){
             x=_x;
             y=_y;
@@ -20,24 +27,23 @@ class Tetromino
         }
         int getX(){return x;}
         int getY(){return y;}
+        int getColor(){return _color;}
+        void setX(int s){x=s;}
+        void setY(int s){y=s;}
         void pintar();
-        /*virtual void pintar(Tetromino *perif){
-            cuadrado(x,y);
-            for(int i=0;i<3;i++)
-                cuadrado(perif[i])
-        }*/
-        void rotar_derecha();
-        /*void swap_der(int &x, int &y){
-            int m=x;
-            x=y;
-            y=m*-1;
-        }*/
 
 
-    protected:
-        int x;
-        int y;
-    private:
+        Tetromino rotar_tetro(Tetromino m){
+            Tetromino rotado(-m.getY(),m.getX());
+            return rotado;
+        }
+        void rotar_derecha(Tetromino *perif){
+            for(int i= 0;i<3;i++)
+                perif[i]=rotar_tetro(perif[i]);
+        }
+
+
+
 };
 
 #endif // TETROMINO_H

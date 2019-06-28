@@ -6,14 +6,16 @@ using namespace miniwin;
 class Pieza_S:public Tetromino
 {
     public:
-        Pieza_S(int _x,int _y):Tetromino(_x,_y){}
+        Pieza_S(int _x,int _y):Tetromino(_x,_y){
+            perif=new Tetromino[3]{{0,-1},{1,-1},{-1,0}};
+            _color=4;
+        }
 
         void pintar(){
-            color(AMARILLO);
+            color(_color);
             cuadrado(x,y);
-            cuadrado(x,y-1);
-            cuadrado(x+1,y-1);
-            cuadrado(x-1,y);
+            for(int i=0;i<3;i++)
+                cuadrado(x+perif[i].getX(),y+perif[i].getY());
         }
 
     protected:
